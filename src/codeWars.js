@@ -549,7 +549,7 @@
 
 // console.log(getCount('YanaBarhatauuuu'))
 
-// Find the stray number
+// Find the unique number
 
 // function stray(numbers) {
 //     return numbers.reduce((acc, num) =>
@@ -559,4 +559,28 @@
 //
 //
 // console.log(stray([17, 17, 3, 17, 17, 17, 17]))
+
+// remove vowels
+// a, e, i, o, u
+
+// option 1
+// function disemvowel(str) {
+//     const vowels = [
+//         'a', 'e', 'i', 'o', 'u',
+//         'A', 'E', 'I', 'O', 'U'
+//     ]
+//
+//     const strArray = str.split('')
+//     const newArray = strArray.filter(letter => !vowels.includes(letter))
+//     const res = newArray.join('')
+//     return res
+// }
+//
+// // option 2
+// function disemvowel(str) {
+//     return str.replace(/[aeiou]/gi, '');
+// }
+//
+// console.log(disemvowel('HELLOuueiIIu'))
+
 
