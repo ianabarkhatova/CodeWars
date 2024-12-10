@@ -583,4 +583,19 @@
 //
 // console.log(disemvowel('HELLOuueiIIu'))
 
+// SQUARE EVERY DIGIT
+// function squareDigits(num){
+//     let res = ''
+//     for (let i = 0; i < num.toString().length; i++) {
+//         let digit = Number(num.toString()[i])
+//         res += digit * digit
+//     }
+//
+//     return Number(res)
+//
+// }
+//
+// console.log(squareDigits(23))
+
+
 
