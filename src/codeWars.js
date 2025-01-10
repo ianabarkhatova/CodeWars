@@ -597,5 +597,29 @@
 //
 // console.log(squareDigits(23))
 
+// HIGHEST AND LOWEST
+// function highAndLow(numbers) {
+//     let arrayOfStrings = numbers.split(" ")
+//     const arrayOfNumbers = arrayOfStrings.map(number => {
+//         return parseInt(number)
+//     })
+//     const highNumber = Math.max(...arrayOfNumbers)
+//     const lowNumber = Math.min(...arrayOfNumbers)
+//     return `${highNumber} ${lowNumber}`
+// }
+//
+// console.log(highAndLow("1 2 3 4 5"))
+
+// function highAndLow(numbers) {
+//     let arrayOfStrings = numbers.split(" ")
+//     const arrayOfNumbers = arrayOfStrings.map(Number)
+//     const highNumber = Math.max(...arrayOfNumbers)
+//     const lowNumber = Math.min(...arrayOfNumbers)
+//     return `${highNumber} ${lowNumber}`
+// }
+//
+// console.log(highAndLow("1 2 3 4 5"))
+
+
 
 
