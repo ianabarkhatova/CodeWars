@@ -620,6 +620,33 @@
 //
 // console.log(highAndLow("1 2 3 4 5"))
 
+// Replace With Alphabet Position
+
+// function alphabetPosition(text) {
+//     const upperText = text.toUpperCase()
+//     const regex = /[^a-zA-Z]/
+//
+//     //check if there is any character that is NOT a letter
+//
+//     let result = []
+//     for(let i = 0; i < upperText.length; i++) {
+//         if(!(regex.test(upperText[i]))) {
+//             result.push(upperText[i].charCodeAt(0) - 64)
+//         }
+//     }
+//
+//     const res = result.join(' ')
+//     return res
+// }
+//
+// console.log(alphabetPosition('ABcDICI ,.>'))
+
+
+
+
+
+
+
 
 
 
